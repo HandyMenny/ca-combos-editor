@@ -111,7 +111,7 @@ func ParseBandDLULFile(downlink string, uplink string) []types.Entry {
 		if len(ulBands) > 0 && ulText != "" {
 			for _, bText := range ulBands {
 				ulEntry := types.UplinkEntry{}
-				ulEntry.SetBands([]types.Band{parseSingleBand(bText)})
+				ulEntry.SetBands(parseComboText(bText)[0].Bands())
 				ulEntries = append(ulEntries, &ulEntry)
 			}
 		}
