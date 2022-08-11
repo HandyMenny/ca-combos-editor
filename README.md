@@ -15,7 +15,7 @@ phone in FTM (it will stop it from bootlooping) and restore the original 0002887
 1. Clone this repo
 2. Execute the following (in the repo's root)
 ```
-go get github.com/denysvitali/ca-combos-editor/cmd
+go get github.com/handymenny/ca-combos-editor/cmd
 go run cmd/main.go -h
 ```
 

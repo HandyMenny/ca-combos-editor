@@ -2,7 +2,7 @@ package pkg
 
 import (
 	"bufio"
-	"github.com/denysvitali/ca-combos-editor/pkg/types"
+	"github.com/handymenny/ca-combos-editor/pkg/types"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"log"

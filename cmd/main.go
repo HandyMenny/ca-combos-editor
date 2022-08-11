@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/alexflint/go-arg"
-	"github.com/denysvitali/ca-combos-editor/pkg"
+	"github.com/handymenny/ca-combos-editor/pkg"
 	"github.com/sirupsen/logrus"
 	"strings"
 )

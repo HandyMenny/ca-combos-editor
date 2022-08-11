@@ -2,8 +2,8 @@ package parsers
 
 import (
 	"encoding/binary"
-	"github.com/denysvitali/ca-combos-editor/pkg/readers"
-	"github.com/denysvitali/ca-combos-editor/pkg/types"
+	"github.com/handymenny/ca-combos-editor/pkg/readers"
+	"github.com/handymenny/ca-combos-editor/pkg/types"
 )
 
 func Parse20xBands(r *readers.BinaryReader) []types.Band {

@@ -2,8 +2,8 @@ package pkg
 
 import (
 	"bufio"
-	"github.com/denysvitali/ca-combos-editor/pkg/readers"
-	"github.com/denysvitali/ca-combos-editor/pkg/types"
+	"github.com/handymenny/ca-combos-editor/pkg/readers"
+	"github.com/handymenny/ca-combos-editor/pkg/types"
 	"os"
 	"sort"
 	"strconv"

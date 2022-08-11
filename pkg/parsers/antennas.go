@@ -1,8 +1,8 @@
 package parsers
 
 import (
-	"github.com/denysvitali/ca-combos-editor/pkg/readers"
-	"github.com/denysvitali/ca-combos-editor/pkg/types"
+	"github.com/handymenny/ca-combos-editor/pkg/readers"
+	"github.com/handymenny/ca-combos-editor/pkg/types"
 )
 
 func ParseAntennas(r *readers.BinaryReader) []types.Antenna {

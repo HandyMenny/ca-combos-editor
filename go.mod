@@ -1,4 +1,4 @@
-module github.com/denysvitali/ca-combos-editor
+module github.com/handymenny/ca-combos-editor
 go 1.14
 
 require (
