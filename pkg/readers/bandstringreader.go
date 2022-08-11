@@ -68,7 +68,7 @@ func (r*ComboReader) ReadClass() int {
 	if err != nil {
 		return -1
 	}
-	classes := "ABCDE"
+	classes := "ABCDEF"
 
 	classIndex := strings.Index(classes, string(c))
 
